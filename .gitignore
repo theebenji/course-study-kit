@@ -1,0 +1,15 @@
+# Everything personal: course outlines, schedules, notes, quiz answers, scores, certificates
+my-progress/
+
+# Future API engine key (see src/shared/quiz-engine.ts)
+.env*.local
+
+# Build and test output
+node_modules/
+dist/
+*.tsbuildinfo
+playwright-report/
+test-results/
+.e2e-progress/
+
+.DS_Store

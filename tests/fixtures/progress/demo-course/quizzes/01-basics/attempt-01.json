@@ -1,0 +1,53 @@
+{
+  "sectionId": "01-basics",
+  "attempt": 1,
+  "kind": "quiz",
+  "takenAt": "2026-10-13",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "lessonId": "intro",
+      "prompt": "What is the first thing the introduction recommends?",
+      "choices": ["Install everything", "Define what done looks like", "Skip the setup", "Read the appendix"],
+      "correctAnswer": "B",
+      "yourAnswer": "B",
+      "score": 1,
+      "explanation": "The introduction opens by defining the finish line before any setup."
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "lessonId": "setup",
+      "prompt": "Which file does setup create first?",
+      "choices": ["README.md", "package.json", "config.yaml", ".env"],
+      "correctAnswer": "B",
+      "yourAnswer": "A",
+      "score": 0,
+      "explanation": "Setup starts with package.json so the tooling can install."
+    },
+    {
+      "number": 3,
+      "type": "short-answer",
+      "lessonId": "first-steps",
+      "prompt": "Why does First Steps recommend a small first change?",
+      "correctAnswer": "A small change gives fast feedback and proves the loop works before adding complexity.",
+      "yourAnswer": "Because it is faster.",
+      "score": 0.5,
+      "explanation": "Speed is part of it, but the key reason is proving the feedback loop works."
+    },
+    {
+      "number": 4,
+      "type": "scenario",
+      "lessonId": "first-steps",
+      "prompt": "Your first change fails a check you don't understand. What do you do next?",
+      "correctAnswer": "Read the check's output, reproduce it locally, and fix the cause rather than disabling the check.",
+      "yourAnswer": "Turn the check off.",
+      "score": 0,
+      "explanation": "Checks are the evidence the work is correct; disabling them removes the evidence."
+    }
+  ],
+  "score": 1.5,
+  "total": 4,
+  "passed": false
+}

@@ -1,0 +1,32 @@
+{
+  "sectionId": "01-basics",
+  "attempt": 2,
+  "kind": "requiz",
+  "takenAt": "2026-10-13",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "lessonId": "setup",
+      "prompt": "Why is package.json created before anything else?",
+      "choices": ["It's alphabetically first", "Tooling installs from it", "Git requires it", "It holds secrets"],
+      "correctAnswer": "B",
+      "yourAnswer": "B",
+      "score": 1,
+      "explanation": "Everything else depends on tooling that installs from package.json."
+    },
+    {
+      "number": 2,
+      "type": "scenario",
+      "lessonId": "first-steps",
+      "prompt": "A teammate wants to skip a flaky check to ship. What do you suggest?",
+      "correctAnswer": "Keep the check, find why it's flaky, and fix or quarantine it with a ticket.",
+      "yourAnswer": "Keep the check and fix why it is flaky.",
+      "score": 1,
+      "explanation": "Fixing the flake keeps the evidence trustworthy."
+    }
+  ],
+  "score": 2,
+  "total": 2,
+  "passed": true
+}

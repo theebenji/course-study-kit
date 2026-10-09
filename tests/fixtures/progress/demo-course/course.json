@@ -1,0 +1,26 @@
+{
+  "slug": "demo-course",
+  "title": "Demo Course",
+  "url": "https://example.com/demo",
+  "sections": [
+    {
+      "id": "01-basics",
+      "title": "Basics",
+      "practiceTask": "Write a one-paragraph summary of the basics in your own words.",
+      "lessons": [
+        { "id": "intro", "title": "Introduction", "url": "https://example.com/demo/intro" },
+        { "id": "setup", "title": "Setup", "url": "https://example.com/demo/setup" },
+        { "id": "first-steps", "title": "First Steps", "url": "https://example.com/demo/first-steps" }
+      ]
+    },
+    {
+      "id": "02-advanced",
+      "title": "Advanced",
+      "practiceTask": "Apply one advanced pattern to a small project.",
+      "lessons": [
+        { "id": "patterns", "title": "Patterns", "url": "https://example.com/demo/patterns" },
+        { "id": "wrap-up", "title": "Wrap-up", "url": "https://example.com/demo/wrap-up" }
+      ]
+    }
+  ]
+}

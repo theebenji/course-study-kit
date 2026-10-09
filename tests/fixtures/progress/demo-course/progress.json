@@ -1,0 +1,39 @@
+{
+  "courseSlug": "demo-course",
+  "student": "Test Student",
+  "startDate": "2026-10-12",
+  "endDate": "2026-10-14",
+  "schedule": [
+    {
+      "date": "2026-10-12",
+      "lessons": [
+        "intro",
+        "setup"
+      ],
+      "quizzes": []
+    },
+    {
+      "date": "2026-10-13",
+      "lessons": [
+        "first-steps"
+      ],
+      "quizzes": [
+        "01-basics"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "lessons": [
+        "patterns",
+        "wrap-up"
+      ],
+      "quizzes": [
+        "02-advanced"
+      ]
+    }
+  ],
+  "completedLessons": [
+    "intro",
+    "setup"
+  ]
+}
